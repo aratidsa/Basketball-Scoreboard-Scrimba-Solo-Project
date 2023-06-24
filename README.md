@@ -14,5 +14,8 @@
 **ScreenShots**
 
 - Desktop View
+  
+![Screenshot 2023-06-24 180050](https://github.com/aratidsa/Basketball-Scoreboard-Scrimba-Solo-Project/assets/128802362/8bddc5b0-5119-4398-9265-4004ff3fb2fc)
 
 - Mobile View
+![Screenshot 2023-06-24 180112](https://github.com/aratidsa/Basketball-Scoreboard-Scrimba-Solo-Project/assets/128802362/56a344a2-5c57-47fe-97b1-2ca53454edb3)
