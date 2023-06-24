@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard | Scrimba Solo Project </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--------------- font styles ------------------------------------------->     
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--------------- main content of the scoreboard     ------------------------------------------->
+     <main>
+        <section class="container">
+    <!--------------- score details ------------------------------------------->        
+            <section class="score-details">   
+     <!--------------- name of the teams ------------------------------------------->                         
+                <section class="title">
+                    <div class="home-title">
+                        <p>Home</p>
+                    </div>
+                    <div class="guest-title">
+                        <p>Guest</p>
+                    </div>
+                </section>
+    <!--------------- score of the teams ------------------------------------------->                 
+                <section class=show-scores>
+                    <div class="show-home-score">
+                        <p class="score-home">0</p>
+                    </div>
+                    <p class="score-update"> <span id="home-score">00</span> : <span id="guest-score">00</span></p>
+                    <div class="show-guest-score">
+                        <p class="score-guest">0</p>
+                    </div>
+                </section>  
+    <!--------------- increment buttons ------------------------------------------->                 
+                <section class="increment-btn">
+                    <div class="increment-btn-home">
+                        <button onclick="addHomepoints1()">+1</button>
+                        <button onclick="addHomepoints2()">+2</button>
+                        <button onclick="addHomepoints3()">+3</button>
+                    </div>
+                    <div class="increment-btn-guest">
+                        <button onclick="addGuestpoints1()">+1</button>
+                        <button onclick="addGuestpoints2()">+2</button>
+                        <button onclick="addGuestpoints3()">+3</button>
+                    </div>
+                </section>  
+            </section>
+        </section>
+     </main>
+    <script src="app.js"></script>
+</body>
+</html>

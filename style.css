@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url("basketball-court.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Caprasimo', cursive;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.score-details
+{
+    background-image: url("scoreboard.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width:700px;
+    height:450px;
+}
+
+.title
+{
+    margin-top:200px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    text-transform: uppercase;
+    color:#af8f5c;
+    text-shadow: 2px 2px #613229;
+}
+
+.show-scores
+{
+    display:flex;
+    margin-top:30px;
+    justify-content: space-evenly;
+    font-size:60px;
+    font-family: 'VT323', monospace;
+}
+
+.score-home
+{
+    width:60px;
+    height:60px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin-left:60px;
+    border-radius: 5px;
+}
+
+.score-guest
+{
+    width:60px;
+    height:60px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin-right:60px;
+    border-radius: 5px;
+}
+
+.score-update
+{
+    color:rgb(19, 19, 149);
+}
+
+.increment-btn
+{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:30px;
+}
+
+button
+{
+    width:40px;
+    height:30px;
+    background-color: rgb(190, 8, 8);
+    border:none;
+    cursor: pointer;
+    color:white;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+}
+
+.increment-btn-guest
+{
+    margin-left:100px;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:600px) {
+
+    .score-details
+   {
+    width:500px;
+    height:400px;
+    margin-left:20px;
+    margin-right:20px;
+   }
+   .title
+   {
+    font-size: 30px;
+   }
+   .show-scores
+   {
+    font-size:40px;
+    font-family: 'VT323', monospace;
+   }
+   .score-home
+   {
+    width:40px;
+    height:40px;
+    }
+   .score-guest
+   {
+    width:40px;
+    height:40px;
+    }
+    .score-update
+   {
+    margin-left:10px;
+    margin-right:10px;
+    }
+    button
+    {
+    width:30px;
+    height:20px;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+    }
+    .increment-btn-guest
+   {
+    margin-left:80px;
+   }
+    
+}
