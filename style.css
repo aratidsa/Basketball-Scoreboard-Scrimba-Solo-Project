@@ -31,10 +31,10 @@ body
 
 .title
 {
-    margin-top:200px;
+    margin-top:12.5rem;
     display: flex;
     justify-content: space-around;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-transform: uppercase;
     color:#af8f5c;
     text-shadow: 2px 2px #613229;
@@ -43,32 +43,32 @@ body
 .show-scores
 {
     display:flex;
-    margin-top:30px;
+    margin-top:1.88rem;
     justify-content: space-evenly;
-    font-size:60px;
+    font-size:3.75rem;
     font-family: 'VT323', monospace;
 }
 
 .score-home
 {
-    width:60px;
-    height:60px;
+    width:3.75rem;
+    height:3.75rem;
     background-color: black;
     color:white;
     text-align: center;
-    margin-left:60px;
-    border-radius: 5px;
+    margin-left:3.75rem;
+    border-radius: 0.31rem;
 }
 
 .score-guest
 {
-    width:60px;
-    height:60px;
+    width:3.75rem;
+    height:3.75rem;
     background-color: black;
     color:white;
     text-align: center;
-    margin-right:60px;
-    border-radius: 5px;
+    margin-right:3.75rem;
+    border-radius: 0.31rem;
 }
 
 .score-update
@@ -80,24 +80,24 @@ body
 {
     display:flex;
     justify-content: space-evenly;
-    margin-top:30px;
+    margin-top:1.88rem;
 }
 
 button
 {
-    width:40px;
-    height:30px;
+    width:2.5rem;
+    height:1.88rem;
     background-color: rgb(190, 8, 8);
     border:none;
     cursor: pointer;
     color:white;
-    font-size: 30px;
+    font-size: 1.88rem;
     font-family: 'VT323', monospace;
 }
 
 .increment-btn-guest
 {
-    margin-left:100px;
+    margin-left:6.25rem;
 }
 
 /* -------------------------------------------------------------------------------------------------------- */
@@ -108,43 +108,43 @@ button
    {
     width:500px;
     height:400px;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:1.25rem;
+    margin-right:1.25rem;
    }
    .title
    {
-    font-size: 30px;
+    font-size: 1.88rem;
    }
    .show-scores
    {
-    font-size:40px;
+    font-size:2.5rem;
     font-family: 'VT323', monospace;
    }
    .score-home
    {
-    width:40px;
-    height:40px;
+    width:2.5rem;
+    height:2.5rem;
     }
    .score-guest
    {
-    width:40px;
-    height:40px;
+    width:2.5rem;
+    height:2.5rem;
     }
     .score-update
    {
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:0.63rem;
+    margin-right:0.63rem;
     }
     button
     {
-    width:30px;
-    height:20px;
-    font-size: 20px;
+    width:1.88rem;
+    height:1.25rem;
+    font-size: 1.25rem;
     font-family: 'VT323', monospace;
     }
     .increment-btn-guest
    {
-    margin-left:80px;
+    margin-left:5rem;
    }
     
 }
